@@ -2,7 +2,23 @@
 
 ## Prerequisites
 
-- Installing [jhbuild](https://developer.gnome.org/jhbuild/stable/getting-started.html.en#getting-started-install) (Note that section 2.1 is all you need and you don't need to run remains)
+* jhbuild (>= 3.5)
+* git
+* patience
+
+### In Ubuntu (>= 14.04)
+
+- Ubuntu already has a package for jhbuild.
+```
+$ sudo apt-get install jhbuild
+```
+
+*Note*: official jhbuild package (>= 3.5) has shipped after ubuntu 14.04.
+
+### From scratch
+
+- Installing [jhbuild](https://developer.gnome.org/jhbuild/stable/getting-started.html.en#getting-started-install)
+(Note that section 2.1 is all you need and you don't need to run remains)
 
 ## Build & Run
 
