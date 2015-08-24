@@ -15,6 +15,11 @@ $ sudo apt-get install jhbuild
 
 *Note*: official jhbuild package (>= 3.5) has shipped after ubuntu 14.04.
 
+### In Debian
+
+- Even latest version(jessie - 8) of debian, the version of jhbuild is very low. 
+  Just follow the instruction "From scratch".
+
 ### From scratch
 
 - Installing [jhbuild](https://developer.gnome.org/jhbuild/stable/getting-started.html.en#getting-started-install)
