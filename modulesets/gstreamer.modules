@@ -110,6 +110,15 @@
     <branch repo="slomo" module="gst-player" checkoutdir="gst-player"/>
   </autotools>
 
+  <autotools id="gst-editing-services" autogenargs="--disable-gtk-doc">
+    <dependencies>
+      <dep package="libxml2"/>
+      <dep package="gstreamer"/>
+      <dep package="gst-devtools"/>
+    </dependencies>
+    <branch repo="gstreamer" module="gst-editing-services" checkoutdir="gst-editing-services"/>
+  </autotools>
+
   <metamodule id="gst">
     <dependencies>
       <dep package="gstreamer"/>
@@ -120,6 +129,7 @@
       <dep package="gst-libav"/>
       <dep package="gst-devtools"/>
       <dep package="gst-player"/>
+      <dep package="gst-editing-services"/>
     </dependencies>
   </metamodule>
 
