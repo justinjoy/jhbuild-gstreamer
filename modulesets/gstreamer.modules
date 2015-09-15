@@ -133,13 +133,5 @@
     </dependencies>
   </metamodule>
 
-  <autotools id="gnonlin" autogenargs="--disable-gtk-doc">
-    <dependencies>
-      <dep package="gstreamer"/>
-      <dep package="gst-plugins-base"/>
-    </dependencies>
-    <branch repo="gstreamer" module="gnonlin" checkoutdir="gnonlin" />
-  </autotools>
-
 </moduleset>
 
